@@ -1,0 +1,13 @@
+Package: LLM
+Type: Package
+Title: A Package for Accessing Large Language Models
+Version: 0.1.0
+Authors@R: c(person("Zaoqu", "Liu", email = "liuzaoqu@163.com", role = c("aut", "cre"),comment=c(ORCID="0000-0002-0452-742X")))
+Description: LLM is an R package that provides a streamlined interface for interacting with various large language models (LLMs), such as OpenAI’s GPT-3, GPT-4, and other advanced AI models. This package allows R users to easily send queries to these models, receive responses, and incorporate them into their analytical workflows. With flexible configuration options for API keys, model selection, and response customization, LLM empowers researchers, data scientists, and developers to integrate the power of large models into R-based projects. Whether for natural language processing, text generation, or advanced data analysis, LLM offers an accessible way to leverage the latest in AI technology within the R ecosystem.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+Roxygen: list(markdown = TRUE)
+Depends: 
+    R (>= 2.10)
